@@ -1,0 +1,25 @@
+**/target/
+.idea
+*.iml
+*.class
+**/application-dev.yml
+**/application-dev.yml.bak
+
+# Local publish workspace, credentials and generated files
+.codex-publish/
+.env
+.env.*
+!.env.example
+**/application-local.yml
+**/application-prod.yml
+**/secrets/
+**/certs/
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.log
+logs/
+.DS_Store
+Thumbs.db
